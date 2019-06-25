@@ -1,0 +1,123 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="DxL_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30,15</Value>
+    </Setting>
+    <Setting Name="DxR_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">33,35</Value>
+    </Setting>
+    <Setting Name="DyL_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0,65</Value>
+    </Setting>
+    <Setting Name="DyR_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0,9</Value>
+    </Setting>
+    <Setting Name="Diameter_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">24</Value>
+    </Setting>
+    <Setting Name="Lenght_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">45</Value>
+    </Setting>
+    <Setting Name="Focus_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OffsetX_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1,8</Value>
+    </Setting>
+    <Setting Name="OffsetY_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-1,15</Value>
+    </Setting>
+    <Setting Name="GainX_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="GainY_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0,99</Value>
+    </Setting>
+    <Setting Name="Rotation_Maq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">180</Value>
+    </Setting>
+    <Setting Name="DxL_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">35,95</Value>
+    </Setting>
+    <Setting Name="DxR_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">40,5</Value>
+    </Setting>
+    <Setting Name="DyL_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-0,4</Value>
+    </Setting>
+    <Setting Name="DyR_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-0,35</Value>
+    </Setting>
+    <Setting Name="Diameter_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">24</Value>
+    </Setting>
+    <Setting Name="Lenght_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">45</Value>
+    </Setting>
+    <Setting Name="Focus_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OffsetX_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-2,95</Value>
+    </Setting>
+    <Setting Name="OffsetY_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-5,05</Value>
+    </Setting>
+    <Setting Name="GainX_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="GainY_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0,998</Value>
+    </Setting>
+    <Setting Name="Rotation_Maq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">180,5</Value>
+    </Setting>
+    <Setting Name="DxL_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">40,75</Value>
+    </Setting>
+    <Setting Name="DxR_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">33,5</Value>
+    </Setting>
+    <Setting Name="DyL_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-0,45</Value>
+    </Setting>
+    <Setting Name="DyR_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-0,6</Value>
+    </Setting>
+    <Setting Name="Diameter_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">24</Value>
+    </Setting>
+    <Setting Name="Lenght_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">45</Value>
+    </Setting>
+    <Setting Name="Focus_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OffsetX_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-3,25</Value>
+    </Setting>
+    <Setting Name="OffsetY_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-5,95</Value>
+    </Setting>
+    <Setting Name="GainX_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="GainY_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0,973</Value>
+    </Setting>
+    <Setting Name="Rotation_Maq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">180,5</Value>
+    </Setting>
+    <Setting Name="PathMaq1" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PathMaq2" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PathMaq3" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
