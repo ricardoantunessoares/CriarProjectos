@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CriarProjectos.exe" version="1.1.0.0" publicKeyToken="39729ee21d7731f4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="folder.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CriarProjectos" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CriarProjectos.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CriarProjectos.exe" size="763328">
+      <assemblyIdentity name="CriarProjectos" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KFoG250bS940erOxT8e2VcnptW0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CriarProjectos.exe.config" size="6659">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2cGSOOJDdUMU8JEXnj3es0zYkk4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="folder.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XtNZfq0zbhcXO7I7Tm9Sq/ZBNOs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LAPTOP-KP1UG5CH\rsoar" issuerKeyHash="70e3af7ab3a33a6106ec839e146c1b45e4c3e916" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WhgyOPSDh4rZYyPESWStPl+oAm8=</DigestValue></Reference></SignedInfo><SignatureValue>DBBLH3P57MRzI23zN7eF7Pb6f8DEDP1jp1fCy4EOGNsaXH7fbKhGgZohi0mdHRJmb8P3u1WJdmorADBcgNpohK+PBmMk1VWxN0a+7DIpNqgDvZZ1qTLY7xFD7sek/nHxldWb3PpTN1/qiEQGWIhgcutRFKn9WL4KU0z8A3E4aBY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tIehv/x5cNt1qkfyZoN87HgvY8vxfli+Ir/383kg03mV+PpZsX8a3+V4LwTA+6LPmDlymg1ctKv7HMEgNBjgsipM3qd1r6YnFfWG4NX5Y09oFMRe8XCDJoA1APnwL5E88b2LJGLm/7a7Fb0GrcQK0Kmbzrd9gR9dR+ypP57fA9k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6f02a85f3ead6449c42363d98a8783f43832185a" Description="" Url=""><as:assemblyIdentity name="CriarProjectos.exe" version="1.1.0.0" publicKeyToken="39729ee21d7731f4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-KP1UG5CH\rsoar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>PLHsPMC16Lb6+Pk+gHbCplpQ6/w=</DigestValue></Reference></SignedInfo><SignatureValue>Dy7vHLO0ATA3EQwMOAOobjxv2WoGdrCykCIG0vl76ZbBGA/XL6rCVotSmgjUJV8nRJ2tjg6mGV0aOTnvtBBsLIenxdOMV6eYIy+ShUc3thi2I8i/DwqCCD8xP9R6pQ7sPecOPThuB+SfEkDqWFZFvMeQdmvyyoPoZ2vP15F4D9E=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tIehv/x5cNt1qkfyZoN87HgvY8vxfli+Ir/383kg03mV+PpZsX8a3+V4LwTA+6LPmDlymg1ctKv7HMEgNBjgsipM3qd1r6YnFfWG4NX5Y09oFMRe8XCDJoA1APnwL5E88b2LJGLm/7a7Fb0GrcQK0Kmbzrd9gR9dR+ypP57fA9k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFsObB40T97pNB+3cfDlsfDANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBLAFAAMQBVAEcANQBDAEgAXAByAHMAbwBhAHIwHhcNMTkwNjE4MDk0MjIxWhcNMjAwNjE3MTU0MjIxWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBLAFAAMQBVAEcANQBDAEgAXAByAHMAbwBhAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALSHob/8eXDbdapH8maDfOx4L2PL8X5YviK/9/N5INN5lfj6WbF/Gt/leC8EwPuiz5g5cpoNXLSr+xzBIDQY4LIqTN6nda+mJxX1huDV+WNPaBTEXvFwgyaANQD58C+RPPG9iyRi5v+2uxW9Bq3ECtCpm863fYEfXUfsqT+e3wPZAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAg2xSYZrDXaPOb0lPqjifXxIykKr99XHEnxmh1KIYUp5/NnvbKHpswm1QGMXNoFhmm+7DXOf72/tP+FjfrTGfmTP0okKyKjAfsBiXAyMguS/Z64J4KIvUW0iimz9Cl4SRiKQyggaKYixRTxHNffmE8yOiPKKyq6R1I6COcqeid6Q=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

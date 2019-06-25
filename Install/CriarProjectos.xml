@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CriarProjectos
+</name>
+</assembly>
+<members>
+<member name="T:CriarProjectos.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CriarProjectos.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CriarProjectos.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:CriarProjectos.My.Resources.Resources.Generic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CriarProjectos.My.Resources.Resources.imgfilework">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CriarProjectos.My.Resources.Resources.imgfileworkpng">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CriarProjectos.My.Resources.Resources.Left_bitmap">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CriarProjectos.My.Resources.Resources.start_portlaser_original">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:CriarProjectos.Form1.GetItem(System.String,System.String)">
+ <summary>
+ Method to get value in the file
+ </summary>
+ <param name="File">Pathname File</param>
+ <param name="Identifier">Word to find the value</param>
+ <returns>true = success</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

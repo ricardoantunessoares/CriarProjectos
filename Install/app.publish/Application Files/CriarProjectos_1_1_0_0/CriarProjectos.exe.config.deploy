@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="CriarProjectos.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <system.diagnostics>
+        <sources>
+            <!-- This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+    <userSettings>
+        <CriarProjectos.My.MySettings>
+            <setting name="DxL_Maq1" serializeAs="String">
+                <value>30,15</value>
+            </setting>
+            <setting name="DxR_Maq1" serializeAs="String">
+                <value>33,35</value>
+            </setting>
+            <setting name="DyL_Maq1" serializeAs="String">
+                <value>0,65</value>
+            </setting>
+            <setting name="DyR_Maq1" serializeAs="String">
+                <value>0,9</value>
+            </setting>
+            <setting name="Diameter_Maq1" serializeAs="String">
+                <value>24</value>
+            </setting>
+            <setting name="Lenght_Maq1" serializeAs="String">
+                <value>45</value>
+            </setting>
+            <setting name="Focus_Maq1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="OffsetX_Maq1" serializeAs="String">
+                <value>1,8</value>
+            </setting>
+            <setting name="OffsetY_Maq1" serializeAs="String">
+                <value>-1,15</value>
+            </setting>
+            <setting name="GainX_Maq1" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="GainY_Maq1" serializeAs="String">
+                <value>0,99</value>
+            </setting>
+            <setting name="Rotation_Maq1" serializeAs="String">
+                <value>180</value>
+            </setting>
+            <setting name="DxL_Maq2" serializeAs="String">
+                <value>35,95</value>
+            </setting>
+            <setting name="DxR_Maq2" serializeAs="String">
+                <value>40,5</value>
+            </setting>
+            <setting name="DyL_Maq2" serializeAs="String">
+                <value>-0,4</value>
+            </setting>
+            <setting name="DyR_Maq2" serializeAs="String">
+                <value>-0,35</value>
+            </setting>
+            <setting name="Diameter_Maq2" serializeAs="String">
+                <value>24</value>
+            </setting>
+            <setting name="Lenght_Maq2" serializeAs="String">
+                <value>45</value>
+            </setting>
+            <setting name="Focus_Maq2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="OffsetX_Maq2" serializeAs="String">
+                <value>-2,95</value>
+            </setting>
+            <setting name="OffsetY_Maq2" serializeAs="String">
+                <value>-5,05</value>
+            </setting>
+            <setting name="GainX_Maq2" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="GainY_Maq2" serializeAs="String">
+                <value>0,998</value>
+            </setting>
+            <setting name="Rotation_Maq2" serializeAs="String">
+                <value>180,5</value>
+            </setting>
+            <setting name="DxL_Maq3" serializeAs="String">
+                <value>40,75</value>
+            </setting>
+            <setting name="DxR_Maq3" serializeAs="String">
+                <value>33,5</value>
+            </setting>
+            <setting name="DyL_Maq3" serializeAs="String">
+                <value>-0,45</value>
+            </setting>
+            <setting name="DyR_Maq3" serializeAs="String">
+                <value>-0,6</value>
+            </setting>
+            <setting name="Diameter_Maq3" serializeAs="String">
+                <value>24</value>
+            </setting>
+            <setting name="Lenght_Maq3" serializeAs="String">
+                <value>45</value>
+            </setting>
+            <setting name="Focus_Maq3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="OffsetX_Maq3" serializeAs="String">
+                <value>-3,25</value>
+            </setting>
+            <setting name="OffsetY_Maq3" serializeAs="String">
+                <value>-5,95</value>
+            </setting>
+            <setting name="GainX_Maq3" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="GainY_Maq3" serializeAs="String">
+                <value>0,973</value>
+            </setting>
+            <setting name="Rotation_Maq3" serializeAs="String">
+                <value>180,5</value>
+            </setting>
+            <setting name="PathMaq1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="PathMaq2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="PathMaq3" serializeAs="String">
+                <value />
+            </setting>
+        </CriarProjectos.My.MySettings>
+    </userSettings>
+</configuration>
